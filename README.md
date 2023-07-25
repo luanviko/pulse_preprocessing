@@ -11,3 +11,12 @@ def load_waveforms(directory):
   ...
   return waveforms
 ```
+
+## Basic Pulse processing
+
+```
+def analyze_waveforms(waveform):
+  # For each waveform
+  pulse_information = {"event_number":None, "count":None, "position":None, "amplitude":None, "area":None}
+  return pulse_database
+```
