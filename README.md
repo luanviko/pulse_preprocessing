@@ -10,7 +10,7 @@ Save dataframe to a Pickle file.
 Please change the function `load_waveforms` to accomodate the format in which your waveforms are saved. 
 
 ```
-def load_waveforms(directory):
+def load_waveforms(directory, options=None):
   waveforms = {}
   ...
   return waveforms
